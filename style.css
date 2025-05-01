@@ -1,0 +1,19 @@
+nav, 
+#menu-checkbox {
+    background-color: var(--foundation-color);
+    font-size: 1.5rem;
+    /* display: none; */
+}
+
+
+#menu-checkbox:checked ~ nav {
+    display: block;
+    margin-left: 10px;
+    order: 1;
+}
+
+.fa-bars {
+    color: #ffffff;
+    padding: 10px 0px 0px 10px;
+}
+
