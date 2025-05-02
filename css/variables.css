@@ -17,8 +17,10 @@
           hsl(209deg 53% 65%) 93%,
           hsl(208deg 59% 67%) 100%
         );
-        --card-color: #ADF7B6;
-        --button-color: #FCF5C7;
-        --text-background-color: #FFC09F;
 }
 
+:root {
+   --card-color: #ADF7B6;
+  --button-color: #FCF5C7;
+  --text-background-color: #FFC09F;
+}
