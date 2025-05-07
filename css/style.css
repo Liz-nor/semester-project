@@ -2,7 +2,7 @@
 @import "./css/media.css";
 
 @font-face {
-
+    font-family: ;
 }
 
 
@@ -54,7 +54,7 @@ nav,
 
 #menu-checkbox:checked ~ nav {
     display: block;
-    margin-left: 10px;
+    margin-left: 20px;
     z-index: 1;
     background-color: #3D5E7C;
 }
@@ -68,17 +68,27 @@ nav {
     right: 20px;
 }
 
-nav button {
-    border: 1px solid red;
-    background-color: var(--button-color);
+.btn {
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px;
+    color: rebeccapurple;
+    background-color: var(--card-color);
+    border: 5px solid var(--text-background-color);
+    border-radius: 5px;
+    transition: transform, .3s, background-color .3s, color .3s;
 }
-
+.btn:hover {
+    transform: translateY(-10px);
+    background-color: var(--text-background-color);
+    color: rebeccapurple;
+}
 nav a {
     display: block;
     padding: 10px 10px;
     color: #fff;
     text-decoration: none;
-    font-size: 1.25em;
+    font-size: 1.4em;
 }
 
 nav li {
@@ -86,14 +96,12 @@ nav li {
 }
 .fa-bars {
     color: #ffffff;
-    padding: 10px;
+    padding: 15px;
     float: right;
 }
 
 .front-page {
     position: relative;
-    text-align: center;
-    
 }
 
 .front-page-text {
@@ -101,10 +109,14 @@ nav li {
     bottom: 70%;
     font-size: 1.4em;
     font-weight: 700;
+    align-self: center;
 }
 .front-page img {
     opacity: 30%;
     max-width: 100%;
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
 }
 
 .wrapper {
@@ -160,8 +172,6 @@ nav li {
     transform: translateY(0px);
 }
 
-
-
 .info-card-wrapper {
     display: flex;
     flex-direction: column;
@@ -182,13 +192,6 @@ nav li {
     display: block;
 }
 
-.info-card button {
-    background-color: var(--button-color);
-    width: 150px;
-    height: 30px;
-    margin: 5px;
-    align-content: center;
-}
 
 .topic-cards {
     width: 90%;
@@ -248,6 +251,8 @@ nav li {
 
 iframe {
     border-radius: 10px;
+    width: 100%;
+    height: 400px;
 }
 
 /* Aeronatics page */
