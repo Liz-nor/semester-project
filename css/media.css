@@ -45,14 +45,7 @@
       display: block;
       font-size: 1.1em;
     }
-
-    .topic-cards {
-        display: grid;
-        grid-template-columns: repeat(5, 200px);
-        justify-content: space-around;
-        border: 2px solid red;
-    }
-
+    
     .social-icons {
       float: right;
     }
