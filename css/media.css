@@ -33,12 +33,17 @@
       display: flex;
       justify-content: space-around;
       gap: 7px;
-      justif
+
     }
 
    .information {
         display: flex;
         flex-direction: row;
+    }
+
+    .information p {
+      display: block;
+      font-size: 1.1em;
     }
 
     .topic-cards {
