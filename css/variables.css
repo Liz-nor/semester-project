@@ -23,5 +23,6 @@
    --card-color: #ADF7B6;
   --button-color: #FCF5C7;
   --text-background-color: #FFC09F;
-  --text-color: #fff
+  --text-color: #fff;
+  --info-text-size: 1.2em;
 }
