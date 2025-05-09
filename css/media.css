@@ -18,6 +18,15 @@
         grid-template-columns: repeat(3, 1fr);
     }
 
+    .back-arrow a,
+    .back-arrow i{
+      color: #000;
+    }
+
+    .back-arrow i:hover {
+      cursor: pointer;
+      text-decoration: underline;
+    }
 
     .btn {
       font-size: 1rem;
@@ -56,13 +65,15 @@
  }
 
    .information {
+    margin: 10px;
         display: flex;
         flex-direction: row;
     }
 
     .information p {
       display: block;
-      font-size: 1.4em;
+      font-size: 1.2em;
+      line-height: 1.6em;
     }
 
     .container {
@@ -89,7 +100,24 @@
       flex-direction: row;
       gap: 10px;
     }
-}
+/* Aeronautics page */
+    .aeronautics-info {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .aeronautics img {
+      object-fit: contain;
+    }
+
+    /* Night */
+    .night-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    }
+  }    
 
 
 

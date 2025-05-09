@@ -11,76 +11,112 @@
     <link rel="stylesheet" href="./css/media.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     </head>
-<body>
+<body class="night-time">
     <header>
-        <nav>
-            <h1>Community Science Museum</h1>
-            <ul>
-                <li><a href="#location">Location</a></li>
-                <li><a href="#admission">Admission</a></li>
-                <li><a href="#opening-hours">Opening Hours</a></li>
-            </ul>
-            <input type="checkbox" id="menu-checkbox">
-        <label for="menu-checkbox" class="hamburger-icon"><i class="fa fa-bars"></i></label>
-            <button>Buy Tickets</button>
-        </nav>
-     </header>  
+    <input type="checkbox" id="menu-checkbox">
+    <label for="menu-checkbox" class="hamburger-icon"><i class="fa-solid fa-bars"></i></label>
+    <nav>
+        <a href="index.html"><h3>Community Science Museum</h3></a>
+        <ul>
+            <li><a href="#location">Location</a></li>
+            <li><a href="#admission">Admission</a></li>
+            <li><a href="#opening-hours">Opening Hours</a></li>
+        </ul>
+        <button class="btn ticket-btn">Buy Tickets</button>
+    </nav>
+ </header>  
  <main>
-    <h2>Night at the Museum</h2>
-    <img src="images/11.jpg" alt="">
-     <p>Pack your sleeping bag and get ready for an epic night at the museum! Bring your family and spend the night sleeping next to giant dinosaurs, cool science experiments, and amazing exhibits</p>
-     <img src="images/12.jpg" alt="">
-     <p>After the lights go out, we'll go on awesome flashlight tours, do hands-on science activities, and discover secrets hidden around every corner. It's your chance to explore the museum like never before — with a night full of adventure, surprises, and fun. Don't miss out on this unforgettable overnight experience!</p>
-    <section>
-        <div class="map" id="location">
-            <iframe src="" frameborder="0"></iframe>
+    <div class="back-arrow">
+        <a href="index.html">
+        <i class="fa-solid fa-arrow-left">Back</i></a>
+    </div>
+    <h1>Night at the Museum</h1>
+    <h2>Get ready for an unforgettable adventure — a Night at the Museum like never before!</h2>
+    <div class="night-info">
+        <div class="night">
+            <img src="images/scientific-2040795_1280.jpg" alt="">
+            <p>Pack your sleeping bag, grab your flashlight, and bring the whole family for an exciting overnight experience surrounded by towering dinosaurs, fascinating science exhibits, and hands-on fun.</p>
+        </div>
+        <div class="night">
+            <img src="images/12.jpg" alt="">
+            <p>As the last visitors leave and the lights go down, the real magic begins. You'll join us for exclusive after-hours flashlight tours through dimly lit halls where shadows dance and secrets await discovery. Tiptoe past ancient fossils, peer into mysterious displays, and listen as our guides reveal stories hidden in every corner of the museum.</p>
+        </div>
+        <div class="night box-1">
+            <img src="images/roberto-nickson-396152.jpg" alt="">
+            <p>But the adventure doesn't stop there — you'll dive into exciting science experiments, build and test your own creations, and get your hands messy with interactive activities that spark curiosity. Whether you're a budding paleontologist, a junior chemist, or just love exploring, there's something here for everyone.</p>
+        </div>
+        <div class="night dim">
+            <img src="images/19.jpg" alt="">
+            <p>When it's finally time to roll out your sleeping bag, you'll drift off under the watchful eyes of dinosaurs or beside glowing exhibits, surrounded by the quiet wonder of a museum transformed by night.
+            <br>Don't miss your chance to create lifelong memories at this one-of-a-kind overnight event — filled with discovery, laughter, and wonder.<br></p>
+        </div>
+        <div class="night">
+            <img src="images/celso-405219.jpg" alt="">
+            <p>Whether you're stargazing in the planetarium, building your own rocket, or listening to space stories under the dim glow of the moon, this is your chance to experience the museum in a whole new way — full of wonder, discovery, and excitement.</p>
+        </div>
+    </div>
+ <section class="information">
+    <div class="map" id="location">
+        <p>Kjelsåsveien 143, 0491 Oslo</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15977.051718134016!2d10.783515940264323!3d59.96314273116476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464171e7ee7ede69%3A0x3f728e95cf11fb30!2sNorwegian%20Museum%20of%20Science%20and%20Technology!5e0!3m2!1sen!2sno!4v1746216249233!5m2!1sen!2sno" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div>
+        <div id="opening-hours">
+            <h3>Opening Hours</h3>
+            <p>Monday-Friday: 10:00-16:00</p>
+            <p>Saturday: 11:00-15:00</p>
+            <p>Sunday: 12:00-15:00</p>
+        </div>
+        <div id="admission">
+            <h3>Admission</h3>
+            <p>The entrance is free for all.
+                There are guided tours of the museum that leave every hour. These tours are 70 NOK per person and include a handy printed guide of the museum.
+                If you would like to organise a guided tour for your group of 6 or more people, please contact us to arrange the tour.</p>
         </div>
         <div>
-            <div id="opening-hours">
-                <h3>Opening Hours</h3>
-                <p>Monday-Friday: 10:00-16:00</p>
-                <p>Saturday: 11:00-15:00</p>
-                <p>Sunday: 12:00-15:00</p>
-            </div>
-            <div id="admission">
-                <h3>Admission</h3>
-                <p>The entrance is free for all.
-                    There are guided tours of the museum that leave every hour. These tours are 70 NOK per person and include a handy printed guide of the museum.
-                    If you would like to organise a guided tour for your group of 6 or more people, please contact us to arrange the tour.</p>
-            </div>
-            <div>
-                <h3>Accessibility</h3>
-                <p>The museum has wheelchair accessibility ramps. It also has audio guides and braille display signs for the visually impaired.</p>
-            </div>
-            <div>
-                <h3>Food and drink</h3>
-                <p>There is a café attached to the museum where you can get light lunches, soft drinks, coffee, snacks and more.</p>
-            </div>
-            <div>
-                <h3>Shop</h3>
-                <p>Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that allow you to continue to explore science even after you've left the museum.</p>
-            </div>
+            <h3>Accessibility</h3>
+            <p>The museum has wheelchair accessibility ramps. It also has audio guides and braille display signs for the visually impaired.</p>
         </div>
-    </section>
+        <div>
+            <h3>Food and drink</h3>
+            <p>There is a café attached to the museum where you can get light lunches, soft drinks, coffee, snacks and more.</p>
+        </div>
+        <div>
+            <h3>Shop</h3>
+            <p>Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that allow you to continue to explore science even after you've left the museum.</p>
+        </div>
+    </div>
+</section>
  </main> 
 
- <footer>
-    <ul>
-        <a href="temporary.html"><li>Support</li></a>
-        <a href="temporary.html"><li>Volunteer</li></a>
-        <a href="temporary.html"><li>Internship</li></a>
-    </ul>
-    <img src="images/logo.jpg" alt="">
-    <ul>
-        <a href="temporary.html"><li>Terms of conditions</li></a>
-        <a href="temporary.html"><li>Privacy and cookies</li></a>
-        <a href="temporary.html"><li>Newsletter</li></a>
-    </ul>
-    <div class="social-icons">
-        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i>Facebook</a>
-        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i>Instagram</a>
-        <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i>Youtube</a>
-      </div>
+ <footer class="footer">
+    <div class="top-section">
+        <div class="left-side">
+            <ul>
+                <li><a href="temporary.html">Support</a></li>
+                <li><a href="temporary.html">Volunteer</a></li>
+                <li><a href="temporary.html">Internship</a></li>
+            </ul>
+        </div>  
+    <div class="logo-container">
+        <img class="logo" src="images/logo.jpg" alt="plasma globe">
+    </div>
+        <div class="social-icons">
+            <p>Socials</p>
+            <div class="icons">
+                <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i>Facebook</a></li>
+                <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+                <li><a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i>Youtube</a></li>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-links">
+        <ul>
+            <li><a href="temporary.html">Terms of conditions</a></li>
+            <li><a href="temporary.html">Privacy and cookies</a></li>
+            <li><a href="temporary.html">Newsletter</a></li>
+        </ul>
+    </div>
 </footer>
 </body>
 </html>
