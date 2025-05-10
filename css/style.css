@@ -2,10 +2,11 @@
 @import "./css/media.css";
 
 @font-face {
-    font-family: ;
+    font-family: "Baloo-2";
+    src: url(/Baloo_2/Baloo2-VariableFont_wght.ttf);
+    font-family: "Fredoka";
+    src: url(/Fredoka/Fredoka-VariableFont_wdth\,wght.ttf);
 }
-
-
 
 *{
     margin: 0;
@@ -14,6 +15,7 @@
 }
 
 body {
+    font-family: "Baloo_2", Arial, Helvetica, sans-serif;
     max-width: 1200px;
     min-height: 100vh;
     margin: 0;
@@ -27,6 +29,8 @@ body {
 }
 
 h1:not(.bounce), h2 {
+    font-family: "Fredoka", Arial, Helvetica, sans-serif;
+    font-weight: 500;
     text-align: center;
     padding: 10px;
     margin-top: 10px;
@@ -391,6 +395,43 @@ iframe {
     font-size: 1em;
     color: #000;
 }
+
+/* Kids */
+.kids-page-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffc09f;
+}
+
+.planet-rotate p,
+.kids-page-image p {
+    font-size: 1.2em;
+}
+
+.planet-rotate img {
+    display: flex;
+    flex-direction: rows;
+    width: 100%;
+}
+
+.autoRotate {
+    animation: autoRotateAnimation;
+    animation-timeline: view();
+}
+
+ @keyframes autoRotateAnimation {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+ }
+
+ .kids-page-image img {
+    width: 400px;
+ }
+    
 /* Footer */
 .footer {
     background: var(--foundation-color);

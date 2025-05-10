@@ -18,6 +18,10 @@
         grid-template-columns: repeat(3, 1fr);
     }
 
+    nav:last-child {
+      padding-left: 20px;
+    }
+
     .back-arrow a,
     .back-arrow i{
       color: #000;
@@ -50,7 +54,7 @@
       display: flex;
       justify-content: space-around;
       align-items: flex-end;
-      gap: 7px;
+      gap: 25px;
 
     }
 
@@ -117,7 +121,25 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     }
-  }    
+
+    /* Kids */
+    .kids-page-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 10px;
+    }
+
+    .box-expand-1 {
+        grid-column: 1/span 2;
+        align-items: center;
+    }
+
+    .box-expand-2 {
+      grid-column: 1/span 3;
+    }
+
+}    
 
 
 
