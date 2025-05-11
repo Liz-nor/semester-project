@@ -16,12 +16,19 @@
 
 body {
     font-family: "Baloo_2", Arial, Helvetica, sans-serif;
-    max-width: 1200px;
+    width: 100%;
     min-height: 100vh;
     margin: 0;
     display: flex;
     flex-direction: column;
     margin: auto;
+}
+
+main {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
 }
 
 .night-time {
@@ -57,7 +64,6 @@ header, footer {
         hsl(209deg 49% 62%) 86%,
         hsl(209deg 53% 65%) 93%,
         hsl(208deg 59% 67%) 100%);
-        width: ;
 }
 
 nav, 
@@ -76,6 +82,7 @@ nav,
 
 header {
     position: relative;
+    width: 100%;
 }
 
 nav {
@@ -130,7 +137,7 @@ nav li {
 .front-page-text {
     position: absolute;
     bottom: 35%;
-    right: 35%;
+    right: 10%;
     width: 400px;
     font-size: 1.4em;
     font-weight: 700;
@@ -300,6 +307,10 @@ iframe {
     width: 100%;
  }
 
+ .aeronautics p {
+    margin: 10px;
+ }
+
  @keyframes bounce {
     0% {
         transform: translateY(-30px);
@@ -312,10 +323,12 @@ iframe {
 
     50% {
         transform: translateY(10px);
+        color: #ffc09f;
     }
 
     60% {
         transform: translateY(20px);
+        color: #ffc09f;
        
     }
 
@@ -405,7 +418,7 @@ iframe {
 
 .planet-rotate p,
 .kids-page-image p {
-    font-size: 1.2em;
+    font-size: var(--info-text-size);
 }
 
 .planet-rotate img {
@@ -431,7 +444,7 @@ iframe {
  .kids-page-image img {
     width: 400px;
  }
-    
+
 /* Footer */
 .footer {
     background: var(--foundation-color);
@@ -479,7 +492,7 @@ iframe {
   }
 
   .social-icons p {
-    font-size: 1.2em;
+    font-size: var(--info-text-size);
   }
   
   .social-icons .icons {
