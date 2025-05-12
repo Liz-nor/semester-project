@@ -20,9 +20,10 @@
 }
 
 :root {
-   --card-color: #ADF7B6;
+  --card-color: #ADF7B6;
   --button-color: #FCF5C7;
   --text-background-color: #FFC09F;
   --text-color: #fff;
   --info-text-size: 1.2em;
+  --image-width: 100%;
 }
