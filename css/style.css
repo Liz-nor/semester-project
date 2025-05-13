@@ -257,7 +257,7 @@ nav li {
 .item {
     color: #000;
     width: 200px;
-    height: 150;
+    height: 150px;
     position: absolute;
     left: max(calc(200px *5), 100%);
     animation-name: scrollleft;
@@ -474,7 +474,7 @@ iframe {
   
   .left-side a,
   .social-icons a {
-    color: var(---text-color);
+    color: var(--text-color);
     text-decoration: none;
     font-weight: bold;
   }
@@ -499,7 +499,7 @@ iframe {
   
   .social-icons i {
     font-size: 24px;
-    color: var(---text-color);
+    color: var(--text-color);
   }
 
   .social-icons li {
@@ -523,7 +523,7 @@ iframe {
   }
   
   .bottom-links a {
-    color: var(---text-color);
+    color: var(--text-color);
     text-decoration: none;
     font-size: 14px;
   }
