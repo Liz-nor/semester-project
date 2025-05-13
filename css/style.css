@@ -92,6 +92,8 @@ nav {
 }
 
 .btn {
+    display: flex;
+    justify-content: center;
     font-size: 1rem;
     font-weight: 700;
     padding: 10px;
@@ -102,6 +104,10 @@ nav {
     border-radius: 5px;
     transition: transform, .3s, background-color .3s, color .3s;
 }
+
+ a {
+    text-decoration: none;
+}
 .btn:hover {
     transform: translateY(-10px);
     background-color: var(--text-background-color);
@@ -111,8 +117,6 @@ nav {
 .ticket-btn {
     width: 150px;
     height: 50px;
-    align-self: flex-end;
-    float: right;
 }
 nav a {
     display: block;
@@ -457,7 +461,7 @@ iframe {
   }
   
   .left-side ul,
-  .social-icons .icons {
+  .social-icons {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -466,7 +470,6 @@ iframe {
   .left-side li,
   .social-icons li {
     margin: 8px 0;
-    text-align: left;
   }
   
   .left-side a,
@@ -481,25 +484,26 @@ iframe {
     height: auto;
     border-radius: 20px;
   }
-  
-  .social-icons {
-    text-align: left;
-  }
 
-  .social-icons p {
+  .social-icons a,
+  .left-side a {
     font-size: var(--info-text-size);
   }
   
-  .social-icons .icons {
+  .social-icons {
     display: flex;
     gap: 10px;
-    justify-content: flex-end;
+    justify-content: center;
     padding-top: 8px;
   }
   
   .social-icons i {
     font-size: 24px;
     color: var(---text-color);
+  }
+
+  .social-icons li {
+    list-style: none;
   }
   
   .bottom-links {

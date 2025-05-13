@@ -80,7 +80,7 @@
     margin: 20px 0px;
     }
 
- .information {
+    .information {
     margin: 10px;
         display: flex;
         flex-direction: row;
@@ -92,7 +92,8 @@
       gap: 20px;
     }
 
-    .social-icons {
+    .social-icons,
+    .left-side {
       text-align: center;
     }
 
