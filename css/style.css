@@ -4,6 +4,9 @@
 @font-face {
     font-family: "Baloo-2";
     src: url(/Baloo_2/Baloo2-VariableFont_wght.ttf);
+}
+
+@font-face {
     font-family: "Fredoka";
     src: url(/Fredoka/Fredoka-VariableFont_wdth\,wght.ttf);
 }
@@ -15,7 +18,7 @@
 }
 
 body {
-    font-family: "Baloo_2", Arial, Helvetica, sans-serif;
+    font-family: "Baloo-2", Arial, Helvetica, sans-serif;
     width: var(--image-width);
     min-height: 100vh;
     margin: 0;
@@ -45,8 +48,13 @@ h1:not(.bounce, .temporary), h2 {
     border-radius: 5px;
 }
 
+p {
+    font-family: "Baloo-2";
+}
+
 
 header, footer {
+    font-family: "Fredoka", Arial, Helvetica, sans-serif;
     background: linear-gradient(
         180deg,
         hsl(209deg 34% 36%) 0%,
@@ -64,6 +72,9 @@ header, footer {
         hsl(209deg 49% 62%) 86%,
         hsl(209deg 53% 65%) 93%,
         hsl(208deg 59% 67%) 100%);
+}
+header h3 {
+    font-weight: 500;
 }
 
 nav, 
@@ -98,13 +109,12 @@ nav {
     font-weight: 700;
     padding: 10px;
     margin-top: 10px;
-    color: rebeccapurple;
+    color: #000;
     background-color: var(--card-color);
     border: 5px solid var(--text-background-color);
     border-radius: 5px;
     transition: transform, .3s, background-color .3s, color .3s;
 }
-
  a {
     text-decoration: none;
 }

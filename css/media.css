@@ -133,8 +133,6 @@
     .kids-page-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    padding: 5px;
     }
 
     .box-expand-1 {
@@ -142,13 +140,15 @@
         align-items: center;
     }
 
-    .box-expand-2 {
-      grid-column: 1/span 2;
-    }
-
     .info-card h3 {
       padding-bottom: 5px; 
       font-size: 1.3em;
+    }
+
+    .kids-page-container img{
+      height: 300px;
+      object-fit: cover;
+      object-position: bottom;
     }
 }    
 
