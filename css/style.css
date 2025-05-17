@@ -3,12 +3,12 @@
 
 @font-face {
     font-family: "Baloo-2";
-    src: url(./Baloo_2/Baloo2-VariableFont_wght.ttf);
+    src: url(/Baloo_2/Baloo2-VariableFont_wght.ttf);
 }
 
 @font-face {
     font-family: "Fredoka";
-    src: url(./Fredoka/Fredoka-VariableFont_wdth\,wght.ttf);
+    src: url(/Fredoka/Fredoka-VariableFont_wdth\,wght.ttf);
 }
 
 *{
@@ -356,6 +356,7 @@ iframe {
  }
 
  .bounce {
+    font-family: "Fredoka", Arial, Helvetica, sans-serif;
     text-align: center;
     padding: 30px;
     animation: bounce 2s ease-in 0s infinite normal;
@@ -551,4 +552,5 @@ iframe {
   .temporary {
     max-width: 1200px;
     margin: 20% auto;
+    height: 250px;
   }
