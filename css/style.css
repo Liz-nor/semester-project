@@ -1,5 +1,6 @@
 @import "./css/variables.css";
 @import "./css/media.css";
+@import "./css/footer.css";
 
 @font-face {
     font-family: "Baloo-2";
@@ -121,7 +122,7 @@ nav {
 .btn:hover {
     transform: translateY(-10px);
     background-color: var(--text-background-color);
-    color: rebeccapurple;
+    color: #000;
 }
 
 .ticket-btn {
@@ -463,90 +464,6 @@ iframe {
  .kids-page-image img {
     width: 400px;
  }
-
-/* Footer */
-.footer {
-    background: var(--foundation-color);
-    color: #fff;
-    padding: 20px;
-    height: auto;
-  }
-  
-  .top-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    text-align: center;
-  }
-  
-  .left-side ul,
-  .social-icons {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .left-side li,
-  .social-icons li {
-    margin: 8px 0;
-  }
-  
-  .left-side a,
-  .social-icons a {
-    color: var(--text-color);
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  .logo-container .logo {
-    width: 100px;
-    height: auto;
-    border-radius: 20px;
-  }
-
-  .social-icons a,
-  .left-side a {
-    font-size: var(--info-text-size);
-  }
-  
-  .social-icons {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    padding-top: 8px;
-  }
-  
-  .social-icons i {
-    font-size: 24px;
-    color: var(--text-color);
-  }
-
-  .social-icons li {
-    list-style: none;
-  }
-  
-  .bottom-links {
-    margin-top: 20px;
-    border-top: 1px solid #ccc;
-    padding-top: 10px;
-    text-align: center;
-  }
-  
-  .bottom-links ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .bottom-links a {
-    color: var(--text-color);
-    text-decoration: none;
-    font-size: 14px;
-  }
 
   /* temporary */
   .temporary {
