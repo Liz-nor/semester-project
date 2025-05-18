@@ -76,6 +76,7 @@ header, footer {
 }
 header h3 {
     font-weight: 500;
+    color: #fff;
 }
 
 nav, 
@@ -131,37 +132,6 @@ nav {
     margin: 5px;
 }
 
-.info-box {
-    position: relative;
-    display: inline-block;
-    margin: 15px;
-}
-
-h3 {
-    cursor: pointer;
-    color: #2c3e50;
-}
-
-.info-content {
-    visibility: visible;
-    opacity: 0;
-    width: 280px;
-    background-color: #f0f0f0;
-    color: #000;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    position: absolute;
-    top: 120%;
-    left: 0;
-    z-index: 10;
-    transition: opacity 0.3s ease-in-out;
-}
-
-.info-box:hover .info-content {
-    visibility: visible;
-    opacity: 1;
-}
 nav a {
     display: block;
     padding: 10px 10px;
@@ -173,6 +143,7 @@ nav a {
 nav li {
     list-style-type: none;
 }
+
 .fa-bars {
     color: #ffffff;
     padding: 15px;
