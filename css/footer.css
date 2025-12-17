@@ -9,6 +9,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 900px;
+    margin: auto;
     flex-wrap: wrap;
     text-align: center;
   }
@@ -58,7 +60,9 @@
   .social-icons li {
     list-style: none;
   }
-  
+  .fa-brands {
+    padding-right: 10px;
+  }
   .bottom-links {
     margin-top: 20px;
     border-top: 1px solid #ccc;
